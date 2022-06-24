@@ -613,6 +613,7 @@
   }
 }
 .navigation__item {
+  color: #2b292d;
   text-decoration: none;
   line-height: 25px;
   font-size: 18px;
