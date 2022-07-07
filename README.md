@@ -1,4 +1,4 @@
-# Layout Sample Project
+# Layout Sample Project - Foundation
 
 ### [Site link](https://alex7prog.github.io/SCSS_Project_1/)
 
