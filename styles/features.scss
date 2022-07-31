@@ -4,6 +4,7 @@
   display: flex;
   position: relative;
   margin: auto;
+  margin-bottom: 103px;
 
   @include for-large-down {
     display: none;
@@ -77,8 +78,6 @@
 
   &__image-small {
     position: absolute;
-    /* height: 166px;
-    width: 167px; */
     left: -130px;
     top: 258px;
   }

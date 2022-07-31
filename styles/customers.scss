@@ -1,17 +1,4 @@
 .customers {
-  /* width: 1140px; */
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  /* margin: auto; */
-  /* padding-top: 30px;
-  padding-bottom: 106px; */
-  /* display: flex;
-  flex-wrap: wrap; */
-
-  // display: flex;
-  // flex-direction: column;
-
   @include for-large-up {
     width: 1140px;
     display: flex;
@@ -24,7 +11,6 @@
 
   &__row {
     display: flex;
-
     @include for-large-up {
       flex: 1;
       justify-content: space-around;
@@ -32,11 +18,12 @@
   }
 
   &__item {
-    width: 107px;
+    min-width: 107px;
     height: 94px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
     border-bottom: 1px solid $border-color;
     border-right: 1px solid $border-color;
 
@@ -50,9 +37,6 @@
   }
 
   &__logo {
-    /* width: 107px;
-  height: 94px; */
-    /* border-bottom: 1px solid #e3e3e3; */
     max-width: 80%;
     filter: brightness(0);
   }

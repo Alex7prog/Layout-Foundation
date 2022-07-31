@@ -28,9 +28,7 @@ html {
 }
 
 .page {
-  // width: 100%;
-  width: 320px;
-  margin: auto;
+  width: 100%;
   overflow-x: hidden;
 
   @include for-large-up {
