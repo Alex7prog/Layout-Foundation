@@ -1,6 +1,6 @@
 # Layout Sample Project - Foundation
 
-### [Site link](https://alex7prog.github.io/SCSS_Project_1/)
+### [Site link](https://alex7prog.github.io/layout-foundation/)
 
 Layout supports mobile (up-to-1400) and desktop versions
 
