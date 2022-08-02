@@ -1,12 +1,12 @@
 .customers {
   @include for-large-up {
-    width: 1140px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: auto;
     padding-top: 30px;
     padding-bottom: 106px;
+    width: 1140px;
+    align-items: center;
   }
 
   &__row {
@@ -18,12 +18,12 @@
   }
 
   &__item {
-    min-width: 107px;
-    height: 94px;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex: 1;
+    min-width: 107px;
+    height: 94px;
+    align-items: center;
     border-bottom: 1px solid $border-color;
     border-right: 1px solid $border-color;
 

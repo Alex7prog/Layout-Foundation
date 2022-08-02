@@ -1,10 +1,10 @@
 .features {
-  width: 1140px;
-  height: 602px;
   display: flex;
   position: relative;
   margin: auto;
   margin-bottom: 103px;
+  width: 1140px;
+  height: 602px;
 
   @include for-large-down {
     display: none;
@@ -15,11 +15,11 @@
   }
 
   &__subtitle {
+    margin: 0;
     font-weight: 700;
     font-size: 22px;
     line-height: 34px;
     color: $text-color-green;
-    margin: 0;
   }
 
   &__title {
@@ -39,8 +39,8 @@
   }
 
   &__header {
-    margin-top: 42px;
     display: flex;
+    margin-top: 42px;
   }
 
   &__header-title {
@@ -62,30 +62,30 @@
   }
 
   &__item {
-    border-bottom: 1px solid rgba(43, 41, 45, 0.15);
+    display: flex;
     margin-top: 21px;
     padding-bottom: 22px;
-    display: flex;
     align-items: center;
+    border-bottom: 1px solid rgba(43, 41, 45, 0.15);
   }
 
   &__item-title {
+    margin-left: 15px;
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
-    margin-left: 15px;
   }
 
   &__image-small {
     position: absolute;
-    left: -130px;
     top: 258px;
+    left: -130px;
   }
 
   &__image-big {
     position: absolute;
     height: 597px;
-    right: -130px;
     top: 5px;
+    right: -130px;
   }
 }

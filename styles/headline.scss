@@ -2,39 +2,37 @@
   width: 100%;
 
   @include for-large-up {
-    width: 1249px;
+    display: flex;
+    position: relative;
     margin-top: 76px;
     margin-left: 126px;
-    position: relative;
-    display: flex;
     padding-bottom: 77px;
+    width: 1249px;
   }
 
   &__content {
     margin: 35px 15px 33px 15px;
+
     @include for-large-up {
       position: absolute;
-      z-index: 1;
-      /* -------------- */
       margin: 0;
+      z-index: 1;
     }
   }
   &__title {
+    margin: 0;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
     letter-spacing: -0.31px;
-    margin: 0;
 
     @include for-large-up {
       width: 754px;
       height: 165px;
-
       font-size: 80px;
       font-weight: 700;
       line-height: 78px;
       letter-spacing: -0.5px;
-
       z-index: 1;
     }
   }
@@ -64,8 +62,8 @@
   }
 
   &__button_learn {
-    padding: 0;
     margin-top: 15px;
+    padding: 0;
     width: 100%;
 
     @include for-large-up {
@@ -76,15 +74,15 @@
   }
 
   &__banner {
-    width: 100%;
     margin-bottom: 36px;
+    width: 100%;
 
     @include for-large-up {
       position: relative;
+      margin-left: auto;
       top: 0;
       width: 796px;
       height: 448px;
-      margin-left: auto;
     }
   }
 

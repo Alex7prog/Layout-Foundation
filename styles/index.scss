@@ -32,10 +32,10 @@ html {
   overflow-x: hidden;
 
   @include for-large-up {
-    width: 1400px;
-    margin: auto;
     display: flex;
     flex-direction: column;
+    margin: auto;
+    width: 1400px;
     min-height: 100vh;
     overflow: hidden;
   }
